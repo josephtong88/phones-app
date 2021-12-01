@@ -1,0 +1,7 @@
+<h1>Phone Index</h1>
+<% @phones.each do |phone| %>
+  <p>maker: <%= phone.maker %></p>
+  <p>version: <%= phone.version %></p>
+  <p>color: <%= phone.color %></p>
+  <hr>
+<% end %>
